@@ -27,7 +27,8 @@ export default defineNuxtConfig({
     // Публичные переменные, доступные и на клиенте и на сервере
     public: {
       wordpressApiUrl: process.env.WORDPRESS_API_URL,
-      apiBase: process.env.NUXT_PUBLIC_API_BASE
+      apiBase: process.env.NUXT_PUBLIC_API_BASE,
+      photoBase: process.env.NUXT_PUBLIC_PHOTO_BASE
     }
   }
 })
